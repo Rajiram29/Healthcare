@@ -1,0 +1,134 @@
+.dash-btn.active.focus,
+.dash-btn.active:focus,
+.dash-btn.focus,
+.dash-btn.focus:active,
+.dash-btn:active:focus,
+.dash-btn:focus {
+  outline: 0 !important;
+  outline-offset: 0  !important;
+  background-image: none  !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none  !important;
+}
+
+.tar-in-detail{
+color: #d196d2;
+font-family: sans-serif;
+font-size: medium;
+font-weight: 700;
+}
+
+.tar-name-in-detail{
+      font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+}
+.circle {
+    width: 6vw;
+    height: 6vw;
+    border-radius: 100px;
+}
+
+.post {
+    font-size: 1.5vw
+}
+.row-dash {
+    padding-top: 1vw
+
+}
+
+@media only screen and (max-width: 425px) {
+    .main {
+        width: 90vw;
+        height: 300vw
+    }
+
+    .circle {
+        width: 24vw;
+        height: 24vw
+    }
+
+    
+    .post {
+        font-size: 6vw
+    }
+
+}
+
+  .swal2-popup {
+    display: none;
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    width: 62em !important;
+    height: 20em !important;
+    max-width: 100%;
+    padding: 1em;
+    border: none;
+    border-radius: .3125em;
+    background: #fff;
+    font-family: inherit;
+    font-size: 1.2rem;
+ }
+ .swal2-styled.swal2-confirm {
+   
+    border-radius: .25em;
+    background: initial;
+    background-color: #3e2a98 !important;
+    color: #fff;
+    font-size: 1.0625em;
+}
+.blur{
+  color:#0c0c0b73;
+}
+.error-msg{
+   color: red;
+} 
+
+table.tt_buyseries, table.tt_buyseries thead tr th {
+      border-bottom: 1px solid #d8d4d4;
+      }
+      table.tt_buyseries th span {
+    font-family: 'Avenir LT Std 85 Heavy';
+    margin: 40px 0px 10px;
+    display: block;
+    font-size: 20px;
+    color: #5752a4;
+    padding: 10px;
+   }
+   table.tt_buyseries {
+    width: 100%;
+    font-size: 11px;
+    color: #666;
+    margin-top: 30px;
+    border: none;
+    letter-spacing: normal;
+    font-size: 11px;
+    line-height: normal;
+    background: #fff !important;
+}
+.td_class{
+   font-size: 15px;
+}
+.seriesBlock {
+    height: 8em;
+    margin-bottom: 0;
+    padding:30px 10px 10px 10px;
+    position: relative;
+}
+
+.seriesBlock a {
+    font-family: 'Avenir LT Std 95 Black';
+    text-transform: uppercase;
+    color: #fffefe;
+    font-size: 14px;
+    text-align: center;
+    width: 320px;
+    padding: 10px;
+    border: 2px solid #5752a4;
+    background-color: #5752a4;
+    margin: 0;
+} 
+

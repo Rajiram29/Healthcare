@@ -143,12 +143,18 @@ body
                                                     <li class="menu-item"><a href="{{url('jury')}}">Jury Questionnaire</a></li>
                                                     </ul>
                                                 </li>
-                                                <li class="menu-item menu-item-has-children"><a href="#">Transcription & Billing</a>
+                                                <li class="menu-item menu-item-has-children" data-size="15"><a href="#" class="sf-with-ul-pre">Special Reports</a>
                                                 <ul class="sub-menu">
-                                                    <li class="menu-item"><a href="#">Medical Transcription</a></li>
-                                                    <li class="menu-item"><a href="#">Medical Billing</a></li>
-                                                    </ul>
-                                                </li>
+                                                    <li class="menu-item"><a href="{{url('treatment-chart')}}">Treatment Chart</a></li>
+                                                    <li class="menu-item"><a href="{{url('diagnostic-chart')}}">Diagnostic Studies Chart</a></li>
+                                                    <li class="menu-item"><a href="{{url('comparative-chart')}}">Comparative Chart</a></li>
+                                                    <li class="menu-item"><a href="{{url('graphical')}}">Graphical Timeline</a></li>
+                                                    <li class="menu-item"><a href="{{url('pain')}}">Pain & Suffering Chart</a></li>
+                                                    <li class="menu-item"><a href="{{url('medication')}}">Pain & Medication Graph</a></li>
+                                                    
+                                                    
+                                                </ul>
+                                            </li>
                                             </ul>
                                         </li>
                                         <li class="menu-item menu-item-has-children "><a href="{{url('')}}">Expertise</a>
@@ -215,14 +221,16 @@ body
                                 @if(Request::segment(1)=='')current-menu-item @endif"><a href="{{url('/')}}">Home</a></li>
                             
                                 
-                                <li class="menu-item menu-item-has-children mediz-mega-menu @if(Request::segment(1)=='medical-chronology'|| Request::segment(1)=='medical-narrative' || Request::segment(1)=='expert-medical' || Request::segment(1)=='billing-summary'|| Request::segment(1)=='deposition-summary'|| Request::segment(1)=='settlement-demand' || Request::segment(1)=='bookmarks' || Request::segment(1)=='hyperlinks'|| Request::segment(1)=='med-a-word' ||Request::segment(1)=='missing-records' || Request::segment(1)=='jury' || Request::segment(1)=='pdf-merge')current-menu-item @endif"><a href="#" class="sf-with-ul-pre">Our Services</a>
+                                <li class="menu-item menu-item-has-children mediz-mega-menu @if(Request::segment(1)=='medical-chronology'|| Request::segment(1)=='medical-narrative' || Request::segment(1)=='expert-medical' || Request::segment(1)=='billing-summary'|| Request::segment(1)=='deposition-summary'|| Request::segment(1)=='settlement-demand' || Request::segment(1)=='bookmarks' || Request::segment(1)=='hyperlinks'|| Request::segment(1)=='med-a-word' ||Request::segment(1)=='missing-records' || Request::segment(1)=='jury' || Request::segment(1)=='pdf-merge' || Request::segment(1)=='treatment-chart' || Request::segment(1)=='diagnostic-chart' || Request::segment(1)=='comparative-chart'|| Request::segment(1)=='graphical' || Request::segment(1)=='pain' || Request::segment(1)=='medication')current-menu-item @endif"><a href="#" class="sf-with-ul-pre">Our Services</a>
                                     <div class="sf-mega sf-mega-full" style=" background-image: url('{{url('/')}}/public/assets/upload/mega-nav-bg.jpg');  background-position: top left;  background-repeat: no-repeat; ">
                                         <ul class="sub-menu">
                                             <li class="menu-item" data-size="15">
                                                 <div class="mediz-mega-menu-section-content"><span class="gdlr-core-space-shortcode" style="margin-top: 140px ;"></span>
                                                     <div style="display: block; margin-left: 15px;">
                                                        <img src="{{url('/')}}/public/assets/images/logo.png" width="98" alt="" /><span class="gdlr-core-space-shortcode" style="margin-top: 10px ;"></span>
-                                                        <span style="font-size: 14px;">One of the first major discoveries relevant to the field of pulmo nology was the disco very </span></div>
+                                                       <a href="#" class="sf-with-ul-pre"><b style="color:#2650a4">MD’s Medical Records Review</b></a>
+                                                       <!-- <p></p> --><br>
+                                                        <span style="font-size: 14px;">We provide years of expertise and services to support the legal industry. We have highly trained medical experts who can summarize and evaluate medical records as well as provide cost-effective medical record analysis. </span></div>
                                                 </div>
                                             </li>
                                             <li class="menu-item menu-item-has-children" data-size="15"><a href="#" class="sf-with-ul-pre">Review Services</a>
@@ -232,7 +240,7 @@ body
                                                     <li class="menu-item"><a href="{{url('expert-medical')}}" class="@if(Request::segment(1)=='expert-medical')active @endif">Expert Medical Opinion</a></li>
                                                     <li class="menu-item"><a href="{{url('billing-summary')}}" class="@if(Request::segment(1)=='billing-summary')active @endif">Billing Summary</a></li>
                                                     <li class="menu-item"><a href="{{url('deposition-summary')}}" class="@if(Request::segment(1)=='deposition-summary')active @endif">Deposition Summary</a></li>
-                                                    <li class="menu-item"><a href="#">Special Reports</a></li>
+                                                    <!-- <li class="menu-item"><a href="#">Special Reports</a></li> -->
                                                     <li class="menu-item"><a href="{{url('settlement-demand')}}" class="@if(Request::segment(1)=='settlement-demand')active @endif">Settlement Demand Letter</a></li>
                                                 </ul>
                                             </li>
@@ -247,10 +255,15 @@ body
                                                     <li class="menu-item"><a href="{{url('jury')}}" class="@if(Request::segment(1)=='jury')active @endif">Jury Questionnaire</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="menu-item menu-item-has-children" data-size="15"><a href="#" class="sf-with-ul-pre">Transcription & Billing</a>
+                                            <li class="menu-item menu-item-has-children" data-size="15"><a href="#" class="sf-with-ul-pre">Special Reports</a>
                                                 <ul class="sub-menu">
-                                                    <li class="menu-item"><a href="#">Medical Transcription</a></li>
-                                                    <li class="menu-item"><a href="#">Medical Billing</a></li>
+                                                    <li class="menu-item"><a href="{{url('treatment-chart')}}"  class="@if(Request::segment(1)=='treatment-chart')active @endif">Treatment Chart</a></li>
+                                                    <li class="menu-item"><a href="{{url('diagnostic-chart')}}" class="@if(Request::segment(1)=='diagnostic-chart')active @endif">Diagnostic Studies Chart</a></li>
+                                                    <li class="menu-item"><a href="{{url('comparative-chart')}}" class="@if(Request::segment(1)=='comparative-chart')active @endif">Comparative Chart</a></li>
+                                                    <li class="menu-item"><a href="{{url('graphical')}}" class="@if(Request::segment(1)=='graphical')active @endif">Graphical Timeline</a></li>
+                                                    <li class="menu-item"><a href="{{url('pain')}}" class="@if(Request::segment(1)=='pain')active @endif">Pain & Suffering Chart</a></li>
+                                                    <li class="menu-item"><a href="{{url('medication')}}" class="@if(Request::segment(1)=='medication')active @endif">Pain & Medication Graph</a></li>
+                                                    
                                                     
                                                 </ul>
                                             </li>

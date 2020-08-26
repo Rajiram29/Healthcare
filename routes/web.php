@@ -32,6 +32,12 @@ Route::get('/med-a-word', 'HomeController@medaword');
 Route::get('/missing-records', 'HomeController@missingrecords');
 Route::get('/jury', 'HomeController@jury');
 Route::get('/pdf-merge', 'HomeController@pdfmerge');
+Route::get('/treatment-chart', 'HomeController@treatment');
+Route::get('/diagnostic-chart', 'HomeController@diagnostic');
+Route::get('/comparative-chart', 'HomeController@comparative');
+Route::get('/graphical', 'HomeController@graphical');
+Route::get('/pain', 'HomeController@pain');
+Route::get('/medication', 'HomeController@medication');
 
 
 

@@ -2449,7 +2449,7 @@ body:not(.lg-from-hash)
     min-height: 10em;
     background: rgba(0, 0, 0, 0) url(../../../upload/layer.png);
     transition: background-color 1s;
-    background-color: rgb(2 128 144 / 70%)
+    background-color: rgb(2 128 144 / 70%);
     background-position: center;
     background-size: cover;
 }

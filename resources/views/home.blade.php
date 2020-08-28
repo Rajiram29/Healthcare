@@ -271,8 +271,8 @@
       <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
           <div class="gdlr-core-pbf-column gdlr-core-column-20 gdlr-core-column-first" id="gdlr-core-column-82563">
               <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="padding: 75px 70px 60px 70px;" data-sync-height="col-features-hp" data-sync-height-center>
-                  <!-- <div class="gdlr-core-pbf-background-wrap" style="background-color: #113377 ;"></div>#900335 -->
-                  <div class="gdlr-core-pbf-background-wrap" style="background-color: #900335 ;"></div>
+                  <!-- <div class="gdlr-core-pbf-background-wrap" style="background-color: #113377 ;"></div>#028090 -->
+                  <div class="gdlr-core-pbf-background-wrap" style="background-color: #028090 ;"></div>
 
                   <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
                       <div class="gdlr-core-pbf-element">
@@ -344,7 +344,7 @@
           <div class="gdlr-core-pbf-column gdlr-core-column-20" id="gdlr-core-column-63284">
               <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="padding: 75px 70px 60px 70px;" data-sync-height="col-features-hp" data-sync-height-center>
                   <!-- <div class="gdlr-core-pbf-background-wrap" style="background-color: #17449e ;"></div> -->
-                  <div class="gdlr-core-pbf-background-wrap" style="background-color: #900335 ;"></div>
+                  <div class="gdlr-core-pbf-background-wrap" style="background-color: #028090 ;"></div>
                   <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
                       <div class="gdlr-core-pbf-element">
                           <div class="gdlr-core-column-service-item gdlr-core-item-pdb  gdlr-core-center-align gdlr-core-no-caption gdlr-core-item-pdlr" style="padding-bottom: 0px;">

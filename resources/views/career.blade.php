@@ -60,7 +60,8 @@ color:#0000009c;
     <div class="col-md-10" style="margin-top: 20px;">
     <div class="gdlr-core-pbf-wrapper " style="margin-top: -63px;margin-right: auto;margin-left: auto;padding: 50px 0px 50px 0px;z-index: 9 ;max-width: 1240px ;border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;-webkit-border-radius: 5px 5px 5px 5px;" id="gdlr-core-wrapper-1">
   <!-- <div class="gdlr-core-pbf-background-wrap" style="border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;-webkit-border-radius: 5px 5px 5px 5px;background-color: #17449e ;background: linear-gradient(to right, rgba(23, 68, 158, 1), rgba(46, 103, 189, 1));-moz-background: linear-gradient(to right, rgba(23, 68, 158, 1), rgba(46, 103, 189, 1));-o-background: linear-gradient(to right, rgba(23, 68, 158, 1), rgba(46, 103, 189, 1));-webkit-background: linear-gradient(to right, rgba(23, 68, 158, 1), rgba(46, 103, 189, 1));"> -->
-  <div class="gdlr-core-pbf-background-wrap" style="border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;-webkit-border-radius: 5px 5px 5px 5px;background-color: #02969c ;background:linear-gradient(to right, rgb(154, 5, 59), rgb(210, 89, 112));-moz-background: linear-gradient(to right, rgb(9 163 173), rgb(4 106 111));-o-background: linear-gradient(to right, rgb(9 163 173), rgb(4 106 111));-webkit-background: linear-gradient(to right, rgba(23, 68, 158, 1), rgba(46, 103, 189, 1));">
+  <div class="gdlr-core-pbf-background-wrap" style="border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;-webkit-border-radius: 5px 5px 5px 5px;background-color: #02969c;
+    background: linear-gradient(to right, rgb(9 163 173), rgb(4 106 111));-moz-background: linear-gradient(to right, rgb(9 163 173), rgb(4 106 111));-o-background: linear-gradient(to right, rgb(9 163 173), rgb(4 106 111));-webkit-background: linear-gradient(to right, rgba(23, 68, 158, 1), rgba(46, 103, 189, 1));">
 
       <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-size: cover ;background-position: center ;" data-parallax-speed="0"></div>
       <!-- <div class="layer-demo"></div> -->
@@ -75,12 +76,12 @@ color:#0000009c;
                           <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 25px ;text-align: center;">
                               <div class=" gdlr-core-media-image"  >
                             <!-- <img src="{{url('/')}}/public/assets/upload/logo-1.png" alt=""  style="width: 200px; padding: 14px;" title="Top-icon1" /> -->
-                            <i class="fa fa-warning" style="width: 200px; font-size:30px; padding: 14px; color:white;"></i> 
+                           <!--  <i class="fa fa-warning" style="width: 200px; font-size:30px; padding: 14px; color:white;"></i>  -->
        <!-- <img src="{{url('/')}}/public/assets/images/logo.png" alt=""  style="width: 80px; padding: 14px;" title="Top-icon1" /> -->
   </div>
                               <div class="gdlr-core-title-item-left-image-wrap">
                                   <div class="gdlr-core-title-item-title-wrap ">
-                                      <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 22px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;color: #ffffff ;">WE ARE HIRING!!!<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider" ></span></h3>
+                                      <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 22px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;color: #ffffff ;">WE ARE HIRING<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider" ></span></h3>
                                       </div>
                               </div>
                           </div>

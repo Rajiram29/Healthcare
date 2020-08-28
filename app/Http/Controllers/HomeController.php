@@ -165,6 +165,29 @@ class HomeController extends Controller
         return view('services.pdfmerge');
     }
 
+    public function treatment(){
+        return view('reports.treatment');
+    }
+
+    public function diagnostic(){
+        return view('reports.diagnostic');
+    }
+
+    public function comparative(){
+        return view('reports.comparative');
+    }
+
+    public function graphical(){
+        return view('reports.graphical');
+    }
+    public function pain(){
+        return view('reports.pain');
+    }
+
+    public function medication(){
+        return view('reports.medication');
+    }
+
 /*Admin funcations*/
 
  public function dashboard()

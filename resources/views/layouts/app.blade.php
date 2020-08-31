@@ -104,7 +104,7 @@ body
             <div class="mediz-mobile-header-container mediz-container clearfix">
                 <div class="mediz-logo  mediz-item-pdlr">
                     <div class="mediz-logo-inner">
-                        <a class="" href="index-2.html"><img src="{{url('/')}}/public/assets/images/logo.png" alt="" width="290" height="76" title="logo" /></a>
+                        <a class="" href="{{url('/')}}/"><img src="{{url('/')}}/public/assets/images/logo.png" alt="" width="290" height="76" title="logo" /></a>
                     </div>
                 </div>
                 <div class="mediz-mobile-menu-right">
@@ -166,7 +166,7 @@ body
                                         </li>
                                         <li class="menu-item menu-item-home current-menu-item page_item page-item-7684 current_page_item"><a href="{{url('/')}}/samples" aria-current="page">Samples</a></li>
                                         
-                                        <li class="menu-item menu-item-home current-menu-item page_item page-item-7684 current_page_item"><a href="{{url('/')}}/career" aria-current="page">Career</a></li> 
+                                        <!-- <li class="menu-item menu-item-home current-menu-item page_item page-item-7684 current_page_item"><a href="{{url('/')}}/career" aria-current="page">Career</a></li>  -->
                                         
 
                                            <li class="menu-item menu-item-home current-menu-item page_item page-item-7684 current_page_item"><a href="{{url('/')}}/about-us" aria-current="page">About Us</a></li> 
@@ -191,14 +191,18 @@ body
                 <div class="mediz-top-bar-background" style="background: #02969c"></div>
                 <div class="mediz-top-bar-container mediz-container ">
                     <div class="mediz-top-bar-container-inner clearfix">
-                        <div class="mediz-top-bar-left mediz-item-pdlr"><i class="icon-clock" style="font-size: 18px ;color: #ffffff ;margin-right: 10px ;"></i> <b>Open </b>&nbsp; Mon - Sat : 24 Hours
-                            <i class="icon-phone" style="font-size: 19px ;color: #ffffff ;margin-left: 25px ;margin-right: 10px ;"></i><b>Call Now!</b> &nbsp; +1-408-878-3187<i class="icon-envelope" style="font-size: 19px ;color: #ffffff ;margin-left: 25px ;margin-right: 10px ;"></i><a href="#"><span class="__cf_email__" > Support@mrrhealthtech.com </span></a> </div>
+                        <div class="mediz-top-bar-left mediz-item-pdlr">
+                        <!-- <i class="icon-clock" style="font-size: 18px ;color: #ffffff ;margin-right: 10px ;"></i> <b>Open </b>&nbsp; Mon - Sat : 24 Hours -->
+                            <i class="icon-phone" style="font-size: 19px ;color: #ffffff ;margin-left: 25px ;margin-right: 10px ;"></i><b>Call Now!</b> &nbsp; +1-408-878-3187
+                            <i class="icon-envelope" style="font-size: 19px ;color: #ffffff ;margin-left: 25px ;margin-right: 10px ;"></i><a href="#"><span class="__cf_email__" > support@mrrhealthtech.us </span></a> </div>
                         <div class="mediz-top-bar-right mediz-item-pdlr">
-                            <div class="mediz-top-bar-right-social"><a href="#" target="_blank" class="mediz-top-bar-social-icon" title="facebook"><i class="fa fa-facebook" ></i></a>
+                            <div class="mediz-top-bar-right-social">
+                            <i class="icon-clock" style="font-size: 18px ;color: #ffffff ;margin-right: 10px ;"></i><b>Open </b>&nbsp; Mon - Sat : 24 Hou
+                                <!-- <a href="#" target="_blank" class="mediz-top-bar-social-icon" title="facebook"><i class="fa fa-facebook" ></i></a>
                               <a href="#" target="_blank" class="mediz-top-bar-social-icon" title="linkedin"><i class="fa fa-linkedin" ></i></a>
                               <a href="#" target="_blank" class="mediz-top-bar-social-icon" title="pinterest"><i class="fa fa-pinterest-p" ></i></a>
                               <a href="#" target="_blank" class="mediz-top-bar-social-icon" title="twitter"><i class="fa fa-twitter" ></i></a>
-                              <a href="#" target="_blank" class="mediz-top-bar-social-icon" title="instagram"><i class="fa fa-instagram" ></i></a>
+                              <a href="#" target="_blank" class="mediz-top-bar-social-icon" title="instagram"><i class="fa fa-instagram" ></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -211,7 +215,7 @@ body
                     <div class="mediz-navigation mediz-item-pdlr clearfix ">
                                  <!-- <a class="" href="index-2.html"><img src="{{url('/')}}/public/assets/upload/logo-1.png" alt="" width="290" height="76" title="logo" style="padding-left: 20px;padding-right: 20px;width: 215px; padding-bottom: 15px;" /></a> -->
 
-                                 <a class="" href="index-2.html"><img src="{{url('/')}}/public/assets/images/logo.jpeg" alt="" width="290" height="76" title="logo" style="padding-left: 160px;padding-right: 20px;width: 269px; padding-bottom: 15px;" /></a>
+                                 <a class="" href="{{url('/')}}/"><img src="{{url('/')}}/public/assets/images/logo.jpeg" alt="" width="290" height="76" title="logo" style="padding-left: 160px;padding-right: 20px;width: 269px; padding-bottom: 15px;" /></a>
 
                              
                         <div class="mediz-main-menu" id="mediz-main-menu">
@@ -282,7 +286,7 @@ body
 
                                   <li class="menu-item menu-item-home page_item page-item-7684 current_page_item mediz-normal-menu @if(Request::segment(1)=='samples')current-menu-item @endif"><a href="{{url('samples')}}">Samples</a></li>
 
-                                  <li class="menu-item menu-item-home page_item page-item-7684 current_page_item mediz-normal-menu @if(Request::segment(1)=='career')current-menu-item @endif"><a href="{{url('career')}}">Career</a></li>
+                                  <!-- <li class="menu-item menu-item-home page_item page-item-7684 current_page_item mediz-normal-menu @if(Request::segment(1)=='career')current-menu-item @endif"><a href="{{url('career')}}">Career</a></li> -->
                                  
                                   <li class="menu-item menu-item-home page_item page-item-7684 current_page_item mediz-normal-menu @if(Request::segment(1)=='about-us')current-menu-item @endif"><a href="{{url('about-us')}}">About Us</a></li>
 
@@ -332,7 +336,7 @@ body
                              <div id="text-1" class="widget widget_text mediz-widget">
                                 <div class="textwidget">
                                     <p>
-                                        <img class="alignnone size-full wp-image-6129" src="{{url('/')}}/public/assets/images/logo.png" alt="" width="70" />
+                                      <a href="{{url('/')}}/">  <img class="alignnone size-full wp-image-6129" src="{{url('/')}}/public/assets/images/logo.png" alt="" width="70" /></a>
                                        
                                 
                                         <p><b> ABOUT US</b></p>
@@ -363,7 +367,7 @@ body
                                         <br />
                                         <span class="gdlr-core-space-shortcode" style="margin-top: -15px ;"></span>
                                         <br />
-                                        <i class="icon-envelope" style="font-size: 19px ;color: #0c9399 ;margin-right: 10px ;"></i><a href="#" style="color: #fff;"><span class="__cf_email__">support@mrrhealthtech.com</span></a></p>
+                                        <i class="icon-envelope" style="font-size: 19px ;color: #0c9399 ;margin-right: 10px ;"></i><a href="#" style="color: #fff;"><span class="__cf_email__">support@mrrhealthtech.us</span></a></p>
                                 </div>
                             </div>
                         </div>
@@ -390,7 +394,7 @@ body
                         <div class="mediz-copyright-left mediz-item-pdlr">
                             <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" style="padding-bottom: 0px ;"><a href="#url" target="_blank" class="gdlr-core-social-network-icon" title="facebook" style="font-size: 17px ;color: #ffffff ;"><i class="fa fa-facebook" ></i></a><a href="#" target="_blank" class="gdlr-core-social-network-icon" title="linkedin" style="font-size: 17px ;color: #ffffff ;"><i class="fa fa-linkedin" ></i></a><a href="#" target="_blank" class="gdlr-core-social-network-icon" title="skype" style="font-size: 17px ;color: #ffffff ;"><i class="fa fa-skype" ></i></a><a href="#url" target="_blank" class="gdlr-core-social-network-icon" title="twitter" style="font-size: 17px ;color: #ffffff ;"><i class="fa fa-twitter" ></i></a></div>
                         </div>
-                        <div class="mediz-copyright-right mediz-item-pdlr" style="color: #ffffff;">Copyright 2019 Mediz, All Right Reserved</div>
+                        <div class="mediz-copyright-right mediz-item-pdlr" style="color: #ffffff;">Copyright 2019 MRR Health Tech Private Limited, All Right Reserved</div>
                     </div>
                 </div>
             </footer>

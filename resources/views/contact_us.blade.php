@@ -120,7 +120,7 @@ textarea{
                                       <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 20px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;color: #f5060673;">Email</h3></div>
                                   <div class="gdlr-core-column-service-content" style="font-weight: 400 ;text-transform: none ;">
                                       <p>For case-related queries and file uploads</p>
-                                      <p style="font-weight: 700px;"><b>support@mrrhealthtech.com</b></p>
+                                      <p style="font-weight: 700px;"><b>support@mrrhealthtech.us</b></p>
                                  
                                     </div>
                               </div>

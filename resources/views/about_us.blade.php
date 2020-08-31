@@ -386,7 +386,7 @@ background-image: -->
     <h2 class="head-basic"> Feel free to talk to us</h2>
 
     <p style='text-align: justify;'>We provide years of expertise and services to support the legal industry. We have highly trained medical experts who can summarize and evaluate medical records as well as provide cost-effective medical record analysis. Our services are endless.</p>
-    <p><b>Email</b>&nbsp;&nbsp;  Support@mrrhealthtech.com</p>
+    <p><b>Email</b>&nbsp;&nbsp;  support@mrrhealthtech.us</p>
     <p><b>Call Now! </b>&nbsp;&nbsp;  +1-408-878-3187</p>
 
   </div>

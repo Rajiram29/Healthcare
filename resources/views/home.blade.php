@@ -1,6 +1,9 @@
 @extends('layouts.app') 
 
 @section('content')
+<style>
+
+</style>
      <!-- mediz-navigation-bar-wrap -->
 <div class="mediz-page-wrapper" id="mediz-page-wrapper">
 <div class="gdlr-core-page-builder-body">
@@ -16,14 +19,17 @@
                       <rs-module id="rev_slider_2_1" style="display:none;" data-version="6.1.5">
                           <rs-slides>
                               <rs-slide data-key="rs-3" data-title="Slide" data-thumb="#" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
-                                  <img src="{{url('/')}}/public/assets/upload/slider-hospital-1-1-2.jpg" title="slider-hospital-1-1" width="1800" height="900" class="rev-slidebg" data-no-retina>
+                                  <!-- <img src="{{url('/')}}/public/assets/upload/slider-hospital-1-1-2.jpg" title="slider-hospital-1-1" width="1800" height="900" class="rev-slidebg" data-no-retina> -->
+                                  <img src="{{url('/')}}/public/assets/upload/home-img2.jpg" class="pickgradient" title="slider-hospital-1-1" width="1800" height="900" class="rev-slidebg" data-no-retina>
+
+                                 
                                   <!---->
-                                  <rs-layer id="slider-2-slide-3-layer-3" data-type="text" data-rsp_ch="on" data-xy="xo:15px,15px,15px,47px;yo:162px,162px,162px,107px;" data-text="w:normal;s:125,125,125,61;l:125,125,125,46;fw:600;a:left,left,left,center;" data-frame_1="st:250;sR:250;" data-frame_999="o:0;st:w;sR:8450;" style="z-index:11;font-family:Poppins;">MRR 
+                                  <rs-layer id="slider-2-slide-3-layer-3" data-type="text" data-rsp_ch="on" data-xy="xo:15px,15px,15px,47px;yo:162px,162px,162px,107px;" data-text="w:normal;s:100,100,100,61;l:125,125,125,46;fw:600;a:left,left,left,center;" data-frame_1="st:250;sR:250;" data-frame_999="o:0;st:w;sR:8450;" style="z-index:11;font-family:Poppins; ">MRR HEALTH TECH
                                   </rs-layer>
                                   <!-- -->
-                                  <rs-layer id="slider-2-slide-3-layer-5" data-type="text" data-rsp_ch="on" data-xy="xo:22px,22px,22px,50px;yo:359px,359px,359px,211px;" data-text="w:normal;s:17;l:28;fw:300;" data-dim="w:548px,548px,548px,377px;h:84px,84px,84px,auto;" data-frame_1="st:770;sR:770;" data-frame_999="o:0;st:w;sR:7930;" style="z-index:13;font-family:Poppins;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                  <!-- <rs-layer id="slider-2-slide-3-layer-5" data-type="text" data-rsp_ch="on" data-xy="xo:22px,22px,22px,50px;yo:359px,359px,359px,211px;" data-text="w:normal;s:17;l:28;fw:300;" data-dim="w:548px,548px,548px,377px;h:84px,84px,84px,auto;" data-frame_1="st:770;sR:770;" data-frame_999="o:0;st:w;sR:7930;" style="z-index:13;font-family:Poppins;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                                       <br />
-                                  </rs-layer>
+                                  </rs-layer> -->
                                   <!-- -->
                                   <rs-layer id="slider-2-slide-3-layer-6" data-type="text" data-color="#bbd1ff" data-rsp_ch="on" data-xy="xo:21px,21px,21px,50px;yo:297px,297px,297px,162px;" data-text="w:normal;s:34,34,34,24;l:34;fw:300;a:left,left,left,center;" data-frame_1="st:510;sR:510;" data-frame_999="o:0;st:w;sR:8190;" style="z-index:12;font-family:Poppins;">World's best and fast growing company
                                   </rs-layer>
@@ -31,7 +37,7 @@
                                 <!--   <rs-layer id="slider-2-slide-3-layer-8" class="rev-btn" data-type="button" data-rsp_ch="on" data-xy="xo:23px,23px,23px,50px;yo:447px,447px,447px,319px;" data-text="w:normal;s:13;l:13;ls:1px;fw:700;" data-dim="minh:0px,0px,0px,none;" data-padding="t:20,20,20,17;r:30,30,30,25;b:23,23,23,20;l:30,30,30,25;" data-border="bor:36px,36px,36px,36px;" data-frame_1="st:1050;sR:1050;" data-frame_999="o:0;st:w;sR:7650;" data-frame_hover="c:#d8eaff;bgc:#fff;bor:36px,36px,36px,36px;" style="z-index:15;background:linear-gradient(90deg, rgba(20,65,156,1) 0%, rgba(45,105,196,1) 100%);font-family:Poppins;text-transform:uppercase;">Share Your Documents For Review
                                   </rs-layer> -->
 
-                                    <rs-layer id="slider-2-slide-3-layer-8" class="rev-btn" data-type="button" data-rsp_ch="on" data-xy="xo:23px,23px,23px,50px;yo:447px,447px,447px,319px;" data-text="w:normal;s:13;l:13;ls:1px;fw:700;" data-dim="minh:0px,0px,0px,none;" data-padding="t:20,20,20,17;r:30,30,30,25;b:23,23,23,20;l:30,30,30,25;" data-border="bor:36px,36px,36px,36px;" data-frame_1="st:1050;sR:1050;" data-frame_999="o:0;st:w;sR:7650;" data-frame_hover="c:#d8eaff;bgc:#fff;bor:36px,36px,36px,36px;" style="z-index:15;background:linear-gradient(90deg, rgb(214, 44, 79) 0%, rgba(247, 96, 122, 0.85) 100%);font-family:Poppins;text-transform:uppercase;">Share Your Documents For Review
+                                    <a href="{{url('secure-file-upload')}}"><rs-layer id="slider-2-slide-3-layer-8" class="rev-btn" data-type="button" data-rsp_ch="on" data-xy="xo:23px,23px,23px,50px;yo:447px,447px,447px,319px;" data-text="w:normal;s:13;l:13;ls:1px;fw:700;" data-dim="minh:0px,0px,0px,none;" data-padding="t:20,20,20,17;r:30,30,30,25;b:23,23,23,20;l:30,30,30,25;" data-border="bor:36px,36px,36px,36px;" data-frame_1="st:1050;sR:1050;" data-frame_999="o:0;st:w;sR:7650;" data-frame_hover="c:#d8eaff;bgc:#fff;bor:36px,36px,36px,36px;" style="z-index:15;background:linear-gradient(90deg, rgb(214, 44, 79) 0%, rgba(247, 96, 122, 0.85) 100%);font-family:Poppins;text-transform:uppercase; margin-top: -41px;">Share Your Documents For Review</a>
                                   </rs-layer>
                                   <!-- -->
                                   
@@ -43,9 +49,9 @@
                                   <rs-layer id="slider-2-slide-5-layer-3" data-type="text" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:607px,607px,607px,0;yo:164px,164px,164px,109px;" data-text="w:normal;s:71,71,71,41;l:125,125,125,46;fw:700;a:left,left,left,center;" data-frame_1="st:250;sR:250;" data-frame_999="o:0;st:w;sR:8450;" style="z-index:11;font-family:Poppins;">FREE BOOKMARKS
                                   </rs-layer>
                                   <!-- -->
-                                  <rs-layer id="slider-2-slide-5-layer-5" data-type="text" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:614px,614px,614px,0;yo:348px,348px,348px,215px;" data-text="w:normal;s:17;l:28;fw:300;a:left,left,left,center;" data-dim="w:548px,548px,548px,358px;h:84px,84px,84px,auto;" data-frame_1="st:770;sR:770;" data-frame_999="o:0;st:w;sR:7930;" style="z-index:13;font-family:Poppins;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                  <!-- <rs-layer id="slider-2-slide-5-layer-5" data-type="text" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:614px,614px,614px,0;yo:348px,348px,348px,215px;" data-text="w:normal;s:17;l:28;fw:300;a:left,left,left,center;" data-dim="w:548px,548px,548px,358px;h:84px,84px,84px,auto;" data-frame_1="st:770;sR:770;" data-frame_999="o:0;st:w;sR:7930;" style="z-index:13;font-family:Poppins;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                                       <br />
-                                  </rs-layer>
+                                  </rs-layer> -->
                                   <!-- -->
                                   <rs-layer id="slider-2-slide-5-layer-6" data-type="text" data-color="#bbd1ff" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:613px,613px,613px,0;yo:281px,281px,281px,162px;" data-text="w:normal;s:34,34,34,23;l:34;fw:300;a:left,left,left,center;" data-frame_1="st:510;sR:510;" data-frame_999="o:0;st:w;sR:8190;" style="z-index:12;font-family:Poppins;">Quick navigation to medical records
                                   </rs-layer>
@@ -53,7 +59,7 @@
                                <!--    <rs-layer id="slider-2-slide-5-layer-8" class="rev-btn" data-type="button" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:613px,613px,613px,0;yo:438px,438px,438px,327px;" data-text="w:normal;s:13;l:13;ls:1px;fw:700;" data-dim="minh:0px,0px,0px,none;" data-padding="t:20,20,20,17;r:30,30,30,25;b:23,23,23,20;l:30,30,30,25;" data-border="bor:36px,36px,36px,36px;" data-frame_1="st:1050;sR:1050;" data-frame_999="o:0;st:w;sR:7650;" data-frame_hover="c:#d8eaff;bgc:#fff;bor:36px,36px,36px,36px;" style="z-index:15;background:linear-gradient(90deg, rgba(20,65,156,1) 0%, rgba(45,105,196,1) 100%);font-family:Poppins;text-transform:uppercase;">Share Your Documents For Review
                                   </rs-layer> -->
 
-                                     <rs-layer id="slider-2-slide-5-layer-8" class="rev-btn" data-type="button" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:613px,613px,613px,0;yo:438px,438px,438px,327px;" data-text="w:normal;s:13;l:13;ls:1px;fw:700;" data-dim="minh:0px,0px,0px,none;" data-padding="t:20,20,20,17;r:30,30,30,25;b:23,23,23,20;l:30,30,30,25;" data-border="bor:36px,36px,36px,36px;" data-frame_1="st:1050;sR:1050;" data-frame_999="o:0;st:w;sR:7650;" data-frame_hover="c:#d8eaff;bgc:#fff;bor:36px,36px,36px,36px;" style="z-index:15;background:linear-gradient(90deg, rgb(214, 44, 79) 0%, rgba(247, 96, 122, 0.85) 100%);font-family:Poppins;text-transform:uppercase;">Share Your Documents For Review
+                                  <a href="{{url('secure-file-upload')}}"><rs-layer id="slider-2-slide-5-layer-8" class="rev-btn" data-type="button" data-rsp_ch="on" data-xy="x:l,l,l,c;xo:613px,613px,613px,0;yo:438px,438px,438px,327px;" data-text="w:normal;s:13;l:13;ls:1px;fw:700;" data-dim="minh:0px,0px,0px,none;" data-padding="t:20,20,20,17;r:30,30,30,25;b:23,23,23,20;l:30,30,30,25;" data-border="bor:36px,36px,36px,36px;" data-frame_1="st:1050;sR:1050;" data-frame_999="o:0;st:w;sR:7650;" data-frame_hover="c:#d8eaff;bgc:#fff;bor:36px,36px,36px,36px;" style="z-index:15;background:linear-gradient(90deg, rgb(214, 44, 79) 0%, rgba(247, 96, 122, 0.85) 100%);font-family:Poppins;text-transform:uppercase; margin-top: -41px;">Share Your Documents For Review</a>
                                   </rs-layer>
                                   <!-- -->
                                  
@@ -93,14 +99,15 @@
   </div>
                               <div class="gdlr-core-title-item-left-image-wrap">
                                   <div class="gdlr-core-title-item-title-wrap ">
-                                      <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 22px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;color: #ffffff ;">MRR Health center<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider" ></span></h3></div>
+                                      <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 22px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;color: #ffffff ;">MRR Health Tech<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider" ></span></h3></div>
                               </div>
                           </div>
                       </div>
                       <div class="gdlr-core-pbf-element">
                           <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align gdlr-core-no-p-space" style="padding-bottom: 25px ;">
                               <div class="gdlr-core-text-box-item-content" style="font-size: 16px ;font-weight: 400 ;letter-spacing: 0px ;text-transform: none ;color: #e0dada ;text-align: center;">
-                                  <p>We are simply your conduit to ensure you do your legal practise with complete peace of mind. The benefits of availing our medico-legal services are comprehensive and we facilitate you in ensuring you get the best from all, at very basic consulting cost. We provide expertise, reassurance and support to help you through the various legal complications. For this, we have the right team partners, who are committed to offering world-class services to our attorney partners.</p>
+                                  <!-- <p>We are simply your conduit to ensure you do your legal practise with complete peace of mind. The benefits of availing our medico-legal services are comprehensive and we facilitate you in ensuring you get the best from all, at very basic consulting cost. We provide expertise, reassurance and support to help you through the various legal complications. For this, we have the right team partners, who are committed to offering world-class services to our attorney partners.</p> -->
+                                  <p>We provide years of expertise and services to support the law firms across the United States. We have highly trained Physicians, medical professionals, and medico-legal experts who can summarize and evaluate the medical records as well as provide cost-effective summaries. Our services are more accurracy and endless.</p>
                               </div>
                           </div>
                       </div>
@@ -133,7 +140,9 @@
                       <div class="gdlr-core-pbf-element">
                           <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" style="padding-bottom: 0px ;">
                                 <div class="gdlr-core-title-item-title-wrap ">
-                                  <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 36px ;font-weight: 700 ;text-transform: none ;color: #757272 ;">We specialize in delivering Personal Injury, Medical Malpractice & Mass Tort Case Reviews with due diligence.<span class="gdlr-core-title-item-title-side-border gdlr-core-style-lower" style="border-bottom-width: 4px ;border-color: #d8d8d8 ;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;width: 44px ;margin-left: 15px ;"  ></span><span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider" ></span></h3></div>  
+                                  <!-- <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 36px ;font-weight: 700 ;text-transform: none ;color: #757272 ;">We specialize in delivering Personal Injury, Medical Malpractice & Mass Tort Case Reviews with due diligence.<span class="gdlr-core-title-item-title-side-border gdlr-core-style-lower" style="border-bottom-width: 4px ;border-color: #d8d8d8 ;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;width: 44px ;margin-left: 15px ;"  ></span><span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider" ></span></h3> -->
+                          
+                                  </div>  
                           </div>
                       </div>
                   </div>
@@ -150,7 +159,8 @@
                                   <div class="gdlr-core-column-service-title-wrap" style="margin-bottom: 20px ;">
                                       <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 20px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;">Quick Turnaround Time</h3></div>
                                   <div class="gdlr-core-column-service-content" style="font-weight: 400 ;text-transform: none ;">
-                                      <p>One of the key classifications is between traditio nal small molecule drugs; usually derived from chemical synthesis.</p>
+                                      <p>Our turnaround time is 1 week to deliver the work product as per your specific request
+</p>
                                       <!-- <a class="gdlr-core-column-service-read-more gdlr-core-info-font" href="#" target="_self" style="font-size: 16px ;font-weight: 500 ;font-style: normal ;"> <i class="arrow_right" style="font-size: 23px ;"  ></i></a> -->
                                     </div>
                               </div>
@@ -170,7 +180,8 @@
                                   <div class="gdlr-core-column-service-title-wrap" style="margin-bottom: 20px ;">
                                       <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 20px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;">Cost effective solutions</h3></div>
                                   <div class="gdlr-core-column-service-content" style="font-weight: 400 ;text-transform: none ;">
-                                      <p>One of the key classifications is between traditio nal small molecule drugs; usually derived from chemical synthesis.</p>
+                                      <p>Our Physician’s can provide cost-effective summaries and medical record analysis
+</p>
                                       <!-- <a class="gdlr-core-column-service-read-more gdlr-core-info-font" href="#" target="_self" style="font-size: 16px ;font-weight: 500 ;font-style: normal ;">Learn More<i class="arrow_right" style="font-size: 23px ;"  ></i></a> -->
                                     </div>
                               </div>
@@ -190,7 +201,7 @@
                                   <div class="gdlr-core-column-service-title-wrap" style="margin-bottom: 20px ;">
                                       <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 20px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;">Confidentiality and data security</h3></div>
                                   <div class="gdlr-core-column-service-content" style="font-weight: 400 ;text-transform: none ;">
-                                      <p>One of the key classifications is between traditio nal small molecule drugs; usually derived from chemical synthesis.</p>
+                                      <p>HIPAA Compliance & the received medical records are secured safely in our secured cloud-based platform.</p>
                                       <!-- <a class="gdlr-core-column-service-read-more gdlr-core-info-font" href="#" target="_self" style="font-size: 16px ;font-weight: 500 ;font-style: normal ;">Learn More<i class="arrow_right" style="font-size: 23px ;"  ></i></a> -->
                                     </div>
                               </div>
@@ -210,7 +221,7 @@
                                   <div class="gdlr-core-column-service-title-wrap" style="margin-bottom: 20px ;">
                                       <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 20px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;">Quality Management System</h3></div>
                                   <div class="gdlr-core-column-service-content" style="font-weight: 400 ;text-transform: none ;">
-                                      <p>One of the key classifications is between traditio nal small molecule drugs; usually derived from chemical synthesis.</p>
+                                      <p>Our Final Quality Review Team ensures the final check of our work products before we deliver to our clients</p>
                                       <!-- <a class="gdlr-core-column-service-read-more gdlr-core-info-font" href="#" target="_self" style="font-size: 16px ;font-weight: 500 ;font-style: normal ;">Learn More<i class="arrow_right" style="font-size: 23px ;"  ></i></a> -->
                                     </div>
                               </div>
@@ -230,7 +241,7 @@
                                   <div class="gdlr-core-column-service-title-wrap" style="margin-bottom: 20px ;">
                                       <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 20px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;">24×7 customer support</h3></div>
                                   <div class="gdlr-core-column-service-content" style="font-weight: 400 ;text-transform: none ;">
-                                      <p>One of the key classifications is between traditio nal small molecule drugs; usually derived from chemical synthesis.</p>
+                                      <p>We provide the 24×7 Customer Support services to our clients through phone, email, chat, and so on</p>
                                       <!-- <a class="gdlr-core-column-service-read-more gdlr-core-info-font" href="#" target="_self" style="font-size: 16px ;font-weight: 500 ;font-style: normal ;">Learn More<i class="arrow_right" style="font-size: 23px ;"  ></i></a> -->
                                     </div>
                               </div>
@@ -250,7 +261,8 @@
                                   <div class="gdlr-core-column-service-title-wrap" style="margin-bottom: 20px ;">
                                       <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 20px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;">Customized services</h3></div>
                                   <div class="gdlr-core-column-service-content" style="font-weight: 400 ;text-transform: none ;">
-                                      <p>One of the key classifications is between traditio nal small molecule drugs; usually derived from chemical synthesis.</p>
+                                      <p>We are specialized in crafting detailed reports of medical expenses and graphical charts
+</p>
                                       <!-- <a class="gdlr-core-column-service-read-more gdlr-core-info-font" href="#" target="_self" style="font-size: 16px ;font-weight: 500 ;font-style: normal ;">Learn More<i class="arrow_right" style="font-size: 23px ;"  ></i></a> -->
                                     </div>
                               </div>
@@ -284,7 +296,7 @@
                                   <div class="gdlr-core-column-service-content" style="font-size: 16px ;font-weight: 400 ;text-transform: none ;color: #fff;">
                                       <p>Medical Records Review</p>
                                       <p><span style="font-size: 60px;">$25</span> <br>per hour</p>
-                                       <div style="min-height: 200px;">
+                                       <div style="min-height: 200px; padding-left:115px;">
                                      
                                       <ul style="text-align: left;">
                                       <li>Medical Chronology</li>
@@ -296,7 +308,7 @@
                                     </ul>
                                   </div>
                                     <a class="mediz-main-menu-right-button mediz-button-1 mediz-style-round" style="
-                                    background-color: #ee7e38;border-color: #ee7e38;" href="{{url('/')}}/secure-file-upload" target="_self">Choose Plan</a>
+                                    background-color: #ee7e38;border-color: #ee7e38; margin-left:158px;" href="{{url('/')}}/secure-file-upload" target="_self">Choose Plan</a>
                                    
                                   </div>
                               </div>
@@ -322,7 +334,7 @@
                                   <div class="gdlr-core-column-service-content" style="font-size: 16px ;font-weight: 400 ;text-transform: none ;color: #fff;">
                                       <p>Additional Sevices</p>
                                       <p><span style="font-size: 60px;">$25</span> <br>per hour</p>
-                                      <div style="min-height: 200px;">
+                                      <div style="min-height: 200px; padding-left:115px;">
                                       <ul style="text-align: left;">
                                       <li>Deposition Summary</li>
                                       <li>Special Reports</li>
@@ -333,7 +345,7 @@
                                   </div>
 
                                     <a class="mediz-main-menu-right-button mediz-button-1 mediz-style-round" style="
-                                    background-color: #ee7e38;border-color: #ee7e38;" href="{{url('/')}}/secure-file-upload" target="_self">Choose Plan</a>
+                                    background-color: #ee7e38;border-color: #ee7e38; margin-left:158px;" href="{{url('/')}}/secure-file-upload" target="_self">Choose Plan</a>
                                   </div>
                               </div>
                           </div>
@@ -355,7 +367,7 @@
                                   <div class="gdlr-core-column-service-content" style="font-size: 16px ;font-weight: 400 ;text-transform: none ;color: #fff;">
                                       <p>Expert Medical Opinion</p>
                                       <p><span style="font-size: 60px;">$50</span> <br>per hour</p>
-                                       <div style="min-height: 200px;">
+                                       <div style="min-height: 200px; padding-left:115px;">
                                      
                                       <ul style="text-align: left;">
                                       <li>Expert Medical Opinion</li>
@@ -363,7 +375,7 @@
                                     </ul>
                                   </div>
                                     <a class="mediz-main-menu-right-button mediz-button-1 mediz-style-round" style="
-                                    background-color: #ee7e38;border-color: #ee7e38;" href="{{url('/')}}/secure-file-upload" target="_self">Choose plan</a>
+                                    background-color: #ee7e38;border-color: #ee7e38; margin-left:158px;" href="{{url('/')}}/secure-file-upload" target="_self">Choose plan</a>
                                   </div>
                               </div>
                           </div>
@@ -469,7 +481,8 @@
                         <div class="gdlr-core-testimonial-quote gdlr-core-quote-font gdlr-core-skin-icon" style="font-size: 160px ;font-weight: 800 ;margin-top: 70px ;margin-bottom: 0px ;color: #0e969e ;">&#8220;</div>
                         <!-- <div class="gdlr-core-testimonial-quote gdlr-core-quote-font gdlr-core-skin-icon" style="font-size: 160px ;font-weight: 800 ;margin-top: 70px ;margin-bottom: 0px ;color: #17449e ;">&#8220;</div> -->
                         <div class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content" style="font-size: 21px ;font-style: italic ;font-weight: 400 ;letter-spacing: 0px ;color: #7a7a7a ;padding-bottom: 20px ;">
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
+                            <p>We are pleased with the product. I have about 5 more cases that I am preparing to send to you in the next week or two.</p>
                         </div>
                         <div class="gdlr-core-testimonial-author-wrap clearfix">
                            
@@ -488,7 +501,8 @@
                         <div class="gdlr-core-testimonial-quote gdlr-core-quote-font gdlr-core-skin-icon" style="font-size: 160px ;font-weight: 800 ;margin-top: 70px ;margin-bottom: 0px ;color: #0e969e ;">&#8220;</div>
 
                         <div class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content" style="font-size: 21px ;font-style: italic ;font-weight: 400 ;letter-spacing: 0px ;color: #7a7a7a ;padding-bottom: 20px ;">
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
+                            <p>You guys are doing a great job. Thanks</p>
                         </div>
                         <div class="gdlr-core-testimonial-author-wrap clearfix">
                             
@@ -507,12 +521,58 @@
                         <div class="gdlr-core-testimonial-quote gdlr-core-quote-font gdlr-core-skin-icon" style="font-size: 160px ;font-weight: 800 ;margin-top: 70px ;margin-bottom: 0px ;color: #0e969e ;">&#8220;</div>
 
                         <div class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content" style="font-size: 21px ;font-style: italic ;font-weight: 400 ;letter-spacing: 0px ;color: #7a7a7a ;padding-bottom: 20px ;">
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
+                            <p>I printed out the two that were delivered yesterday for my bosses review and he was very pleased with them. We will send you a few more as test runs that are more voluminous to see what the turn around time is but he was overall very happy.</p>
                         </div>
                         <div class="gdlr-core-testimonial-author-wrap clearfix">
                             
                             <div class="gdlr-core-testimonial-author-content">
                                 <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #239f9d ;font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">Paul Smith</div>
+                                <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption" style="color: #a2a2a2 ;font-size: 15px ;font-style: normal ;font-weight: 400 ;">Patient</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="gdlr-core-item-mglr">
+                <div class="gdlr-core-testimonial clearfix">
+                    <div class="gdlr-core-testimonial-content-wrap">
+                        <!-- <div class="gdlr-core-testimonial-quote gdlr-core-quote-font gdlr-core-skin-icon" style="font-size: 160px ;font-weight: 800 ;margin-top: 70px ;margin-bottom: 0px ;color: #17449e ;">&#8220;</div> -->
+                        <div class="gdlr-core-testimonial-quote gdlr-core-quote-font gdlr-core-skin-icon" style="font-size: 160px ;font-weight: 800 ;margin-top: 70px ;margin-bottom: 0px ;color: #0e969e ;">&#8220;</div>
+
+                        <div class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content" style="font-size: 21px ;font-style: italic ;font-weight: 400 ;letter-spacing: 0px ;color: #7a7a7a ;padding-bottom: 20px ;">
+                      
+                            <!-- <p>I printed out the two that were delivered yesterday for my bosses review and he was very pleased with them. We will send you a few more as test runs that are more voluminous to see what the turn around time is but he was overall very happy.</p> -->
+                            <p>I really appreciate all the case support you’ve been giving my office!</p>
+                        </div>
+                        <div class="gdlr-core-testimonial-author-wrap clearfix">
+                            
+                            <div class="gdlr-core-testimonial-author-content">
+                                <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #239f9d ;font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">Paul Smith</div>
+                                <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption" style="color: #a2a2a2 ;font-size: 15px ;font-style: normal ;font-weight: 400 ;">Patient</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="gdlr-core-item-mglr">
+                <div class="gdlr-core-testimonial clearfix">
+                    <div class="gdlr-core-testimonial-content-wrap">
+                        <!-- <div class="gdlr-core-testimonial-quote gdlr-core-quote-font gdlr-core-skin-icon" style="font-size: 160px ;font-weight: 800 ;margin-top: 70px ;margin-bottom: 0px ;color: #17449e ;">&#8220;</div> -->
+                        <div class="gdlr-core-testimonial-quote gdlr-core-quote-font gdlr-core-skin-icon" style="font-size: 160px ;font-weight: 800 ;margin-top: 70px ;margin-bottom: 0px ;color: #0e969e ;">&#8220;</div>
+
+                        <div class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content" style="font-size: 21px ;font-style: italic ;font-weight: 400 ;letter-spacing: 0px ;color: #7a7a7a ;padding-bottom: 20px ;">
+                      
+                            <!-- <p>I printed out the two that were delivered yesterday for my bosses review and he was very pleased with them. We will send you a few more as test runs that are more voluminous to see what the turn around time is but he was overall very happy.</p> -->
+                            <p>Medical Chronology & everything was wonderful. As soon as I obtain more cases, I will send them your way.
+</p>
+                        </div>
+                        <div class="gdlr-core-testimonial-author-wrap clearfix">
+                            
+                            <div class="gdlr-core-testimonial-author-content">
+                                <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #239f9d ;font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;"> DC BASED LAW FIRM</div>
                                 <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption" style="color: #a2a2a2 ;font-size: 15px ;font-style: normal ;font-weight: 400 ;">Patient</div>
                             </div>
                         </div>
@@ -547,7 +607,7 @@
                                 <div class="gdlr-core-column-service-content-wrapper">
                                     <div class="gdlr-core-column-service-title-wrap" style="margin-bottom: 0px ;">
                                         <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 21px ;font-weight: 500 ;letter-spacing: 0px ;text-transform: none ;">Request for a sample</h3>
-                                        <div class="gdlr-core-column-service-caption gdlr-core-info-font gdlr-core-skin-caption" style="font-size: 19px ;font-weight: 600 ;font-style: italic ;"><a class="gdlr-core-column-service-read-more gdlr-core-info-font" href="#" target="_self" style="font-size: 16px ;font-weight: 500 ;font-style: normal ;"> Request sample<i class="arrow_right" style="font-size: 23px ;"  ></i></a></div>
+                                        <div class="gdlr-core-column-service-caption gdlr-core-info-font gdlr-core-skin-caption" style="font-size: 19px ;font-weight: 600 ;font-style: italic ;"><a class="gdlr-core-column-service-read-more gdlr-core-info-font" href="{{url('/')}}/samples" target="_self" style="font-size: 16px ;font-weight: 500 ;font-style: normal ;"> Request sample<i class="arrow_right" style="font-size: 23px ;"  ></i></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -566,8 +626,8 @@
                                 <div class="gdlr-core-column-service-media gdlr-core-media-image" style="margin-top: 10px;"><img src="{{url('/')}}/public/assets/upload/icon2.png" alt="" width="33" height="31" title="icon2" /></div>
                                 <div class="gdlr-core-column-service-content-wrapper">
                                     <div class="gdlr-core-column-service-title-wrap" style="margin-bottom: 0px ;">
-                                        <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 21px ;font-weight: 500 ;letter-spacing: 0px ;text-transform: none ;">Contact & Appointment</h3>
-                                        <div class="gdlr-core-column-service-caption gdlr-core-info-font gdlr-core-skin-caption" style="font-size: 19px ;font-weight: 600 ;font-style: italic ;"> <a class="gdlr-core-column-service-read-more gdlr-core-info-font" href="#" target="_self" style="font-size: 16px ;font-weight: 500 ;font-style: normal ;"> Send us an email<i class="arrow_right" style="font-size: 23px ;"  ></i></a></div>
+                                        <h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 21px ;font-weight: 500 ;letter-spacing: 0px ;text-transform: none ;">Contact Us</h3>
+                                        <div class="gdlr-core-column-service-caption gdlr-core-info-font gdlr-core-skin-caption" style="font-size: 19px ;font-weight: 600 ;font-style: italic ;"> <a class="gdlr-core-column-service-read-more gdlr-core-info-font" href="{{url('/')}}/contact-us" target="_self" style="font-size: 16px ;font-weight: 500 ;font-style: normal ;"> Send us an email<i class="arrow_right" style="font-size: 23px ;"  ></i></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -588,7 +648,7 @@
                                 <div class="gdlr-core-column-service-content-wrapper">
                                     <div class="gdlr-core-column-service-title-wrap" style="margin-bottom: 0px ;">
                                         <a href="{{url('/')}}/secure-file-upload" ><h3 class="gdlr-core-column-service-title gdlr-core-skin-title" style="font-size: 21px ;font-weight: 500 ;letter-spacing: 0px ;text-transform: none ;">Secure File Upload</h3></a>
-                                        <div class="gdlr-core-column-service-caption gdlr-core-info-font gdlr-core-skin-caption" style="font-size: 19px ;font-weight: 600 ;font-style: italic ;">  <a class="gdlr-core-column-service-read-more gdlr-core-info-font" href="#" target="_self" style="font-size: 16px ;font-weight: 500 ;font-style: normal ;"> Upload file<i class="arrow_right" style="font-size: 23px ;"  ></i></a></div>
+                                        <div class="gdlr-core-column-service-caption gdlr-core-info-font gdlr-core-skin-caption" style="font-size: 19px ;font-weight: 600 ;font-style: italic ;">  <a class="gdlr-core-column-service-read-more gdlr-core-info-font" href="{{url('/')}}/secure-file-upload" target="_self" style="font-size: 16px ;font-weight: 500 ;font-style: normal ;"> Upload file<i class="arrow_right" style="font-size: 23px ;"  ></i></a></div>
                                     </div>
                                 </div>
                             </div>

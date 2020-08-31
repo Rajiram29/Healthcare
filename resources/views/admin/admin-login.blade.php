@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>MedicalRecordsReform</title>
+  <title>MRR</title>
 
   <!-- Custom fonts for this template-->
   
@@ -30,7 +30,8 @@
               <div class="col-lg-12">
                 <div class="p-5 login-cont">
                   <div class="text-center ">
-                     <h2>MedicalRecordsReform</h2>
+                     {{-- <h2>MRR</h2> --}}
+                  <img src="{{url('/')}}/public/assets/images/logo.jpeg" style="width: 90px;">
                     <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                   </div>
                     <form method="POST" id="loginFrom" action="" class="user">

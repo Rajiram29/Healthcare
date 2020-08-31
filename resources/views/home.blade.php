@@ -24,7 +24,7 @@
 
                                  
                                   <!---->
-                                  <rs-layer id="slider-2-slide-3-layer-3" data-type="text" data-rsp_ch="on" data-xy="xo:15px,15px,15px,47px;yo:162px,162px,162px,107px;" data-text="w:normal;s:100,100,100,61;l:125,125,125,46;fw:600;a:left,left,left,center;" data-frame_1="st:250;sR:250;" data-frame_999="o:0;st:w;sR:8450;" style="z-index:11;font-family:Poppins; ">MRR HEALTH TECH
+                                  <rs-layer id="slider-2-slide-3-layer-3" data-type="text" data-rsp_ch="on" data-xy="xo:15px,15px,15px,47px;yo:162px,162px,162px,107px;" data-text="w:normal;s:71,100,100,61;l:125,125,125,46;fw:600;a:left,left,left,center;" data-frame_1="st:250;sR:250;" data-frame_999="o:0;st:w;sR:8450;" style="z-index:11;font-family:Poppins; ">MRR HEALTH TECH
                                   </rs-layer>
                                   <!-- -->
                                   <!-- <rs-layer id="slider-2-slide-3-layer-5" data-type="text" data-rsp_ch="on" data-xy="xo:22px,22px,22px,50px;yo:359px,359px,359px,211px;" data-text="w:normal;s:17;l:28;fw:300;" data-dim="w:548px,548px,548px,377px;h:84px,84px,84px,auto;" data-frame_1="st:770;sR:770;" data-frame_999="o:0;st:w;sR:7930;" style="z-index:13;font-family:Poppins;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
@@ -296,7 +296,8 @@
                                   <div class="gdlr-core-column-service-content" style="font-size: 16px ;font-weight: 400 ;text-transform: none ;color: #fff;">
                                       <p>Medical Records Review</p>
                                       <p><span style="font-size: 60px;">$25</span> <br>per hour</p>
-                                       <div style="min-height: 200px; padding-left:115px;">
+                                       <div style="min-height: 200px; text-align: center;
+                                       display: inline-flex;">
                                      
                                       <ul style="text-align: left;">
                                       <li>Medical Chronology</li>
@@ -308,7 +309,7 @@
                                     </ul>
                                   </div>
                                     <a class="mediz-main-menu-right-button mediz-button-1 mediz-style-round" style="
-                                    background-color: #ee7e38;border-color: #ee7e38; margin-left:158px;" href="{{url('/')}}/secure-file-upload" target="_self">Choose Plan</a>
+                                    background-color: #ee7e38;border-color: #ee7e38; margin-left: 22%;" href="{{url('/')}}/secure-file-upload" target="_self">Choose Plan</a>
                                    
                                   </div>
                               </div>
@@ -334,7 +335,8 @@
                                   <div class="gdlr-core-column-service-content" style="font-size: 16px ;font-weight: 400 ;text-transform: none ;color: #fff;">
                                       <p>Additional Sevices</p>
                                       <p><span style="font-size: 60px;">$25</span> <br>per hour</p>
-                                      <div style="min-height: 200px; padding-left:115px;">
+                                      <div style="min-height: 200px;     text-align: center;
+                                      display: inline-flex;">
                                       <ul style="text-align: left;">
                                       <li>Deposition Summary</li>
                                       <li>Special Reports</li>
@@ -345,7 +347,7 @@
                                   </div>
 
                                     <a class="mediz-main-menu-right-button mediz-button-1 mediz-style-round" style="
-                                    background-color: #ee7e38;border-color: #ee7e38; margin-left:158px;" href="{{url('/')}}/secure-file-upload" target="_self">Choose Plan</a>
+                                    background-color: #ee7e38;border-color: #ee7e38; margin-left: 22%;" href="{{url('/')}}/secure-file-upload" target="_self">Choose Plan</a>
                                   </div>
                               </div>
                           </div>
@@ -367,7 +369,8 @@
                                   <div class="gdlr-core-column-service-content" style="font-size: 16px ;font-weight: 400 ;text-transform: none ;color: #fff;">
                                       <p>Expert Medical Opinion</p>
                                       <p><span style="font-size: 60px;">$50</span> <br>per hour</p>
-                                       <div style="min-height: 200px; padding-left:115px;">
+                                       <div style="min-height: 200px;    text-align: center;
+                                       display: inline-flex;">
                                      
                                       <ul style="text-align: left;">
                                       <li>Expert Medical Opinion</li>
@@ -375,7 +378,7 @@
                                     </ul>
                                   </div>
                                     <a class="mediz-main-menu-right-button mediz-button-1 mediz-style-round" style="
-                                    background-color: #ee7e38;border-color: #ee7e38; margin-left:158px;" href="{{url('/')}}/secure-file-upload" target="_self">Choose plan</a>
+                                    background-color: #ee7e38;border-color: #ee7e38; margin-left: 22%;" href="{{url('/')}}/secure-file-upload" target="_self">Choose plan</a>
                                   </div>
                               </div>
                           </div>
@@ -487,8 +490,8 @@
                         <div class="gdlr-core-testimonial-author-wrap clearfix">
                            
                             <div class="gdlr-core-testimonial-author-content">
-                                <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #239f9d ;font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">Mildred Payne</div>
-                                <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption" style="color: #a2a2a2 ;font-size: 15px ;font-style: normal ;font-weight: 400 ;">Allergist</div>
+                                <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #239f9d ;font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">CA BASED LAW FRIM</div>
+                                {{-- <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption" style="color: #a2a2a2 ;font-size: 15px ;font-style: normal ;font-weight: 400 ;">Allergist</div> --}}
                             </div>
                         </div>
                     </div>
@@ -507,8 +510,8 @@
                         <div class="gdlr-core-testimonial-author-wrap clearfix">
                             
                             <div class="gdlr-core-testimonial-author-content">
-                                <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #239f9d ;font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">Mary Jane</div>
-                                <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption" style="color: #a2a2a2 ;font-size: 15px ;font-style: normal ;font-weight: 400 ;">Patient</div>
+                                <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #239f9d ;font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">WA BASED LAW FRIM</div>
+                                 
                             </div>
                         </div>
                     </div>
@@ -527,8 +530,8 @@
                         <div class="gdlr-core-testimonial-author-wrap clearfix">
                             
                             <div class="gdlr-core-testimonial-author-content">
-                                <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #239f9d ;font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">Paul Smith</div>
-                                <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption" style="color: #a2a2a2 ;font-size: 15px ;font-style: normal ;font-weight: 400 ;">Patient</div>
+                                <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #239f9d ;font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">FL BASED LAW FRIM</div>
+                                
                             </div>
                         </div>
                     </div>
@@ -549,8 +552,8 @@
                         <div class="gdlr-core-testimonial-author-wrap clearfix">
                             
                             <div class="gdlr-core-testimonial-author-content">
-                                <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #239f9d ;font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">Paul Smith</div>
-                                <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption" style="color: #a2a2a2 ;font-size: 15px ;font-style: normal ;font-weight: 400 ;">Patient</div>
+                                <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #239f9d ;font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;">TX BASED LAW FRIM</div>
+                                
                             </div>
                         </div>
                     </div>
@@ -572,8 +575,8 @@
                         <div class="gdlr-core-testimonial-author-wrap clearfix">
                             
                             <div class="gdlr-core-testimonial-author-content">
-                                <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #239f9d ;font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;"> DC BASED LAW FIRM</div>
-                                <div class="gdlr-core-testimonial-position gdlr-core-info-font gdlr-core-skin-caption" style="color: #a2a2a2 ;font-size: 15px ;font-style: normal ;font-weight: 400 ;">Patient</div>
+                                <div class="gdlr-core-testimonial-title gdlr-core-title-font gdlr-core-skin-title" style="color: #239f9d ;font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;"> WA BASED LAW FRIM</div>
+                               
                             </div>
                         </div>
                     </div>

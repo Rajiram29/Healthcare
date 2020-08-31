@@ -192,7 +192,7 @@
 
                 <div class="gdlr-core-column-30">
 
-                     
+                   <input type="file" name="files" class=" " > 
  
                 </div>
 

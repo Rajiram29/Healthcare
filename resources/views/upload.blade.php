@@ -73,7 +73,7 @@ color:#0000009c;
     <div class="col-md-8" id="sample-grid-1">
         <h2> Upload Your Files </h2>
   <!-- <h4 style="text-align: center;color: #545656!important;">and we will get back to you.</h4> -->
- <form>
+    <form action="{{url('/')}}/fileupload" method="POST">
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputPassword4">Attorney Name <span style='color:red;'>*</span></label>
@@ -149,6 +149,18 @@ Specific Instructions</label>
     
     </div>
     
+
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <br>  
+        <input type="file" name="files" class="" required> <br> <br> 
+      </div>
+      
+      
+    </div>
+  
+  
+
   </div>
   <!-- <div class="form-row"> -->
    <!--  <div class="form-group">

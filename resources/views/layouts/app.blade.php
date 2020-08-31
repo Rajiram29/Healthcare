@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Mediz &#8211; Hospital HTML Template</title>
+    <title>MRR Health Tech</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link href='{{url("/")}}/public/float/css/jquery-fab-button.css' rel="stylesheet">
@@ -211,7 +211,7 @@ body
                     <div class="mediz-top-bar-container-inner clearfix">
                         <div class="mediz-top-bar-left mediz-item-pdlr">
                         <!-- <i class="icon-clock" style="font-size: 18px ;color: #ffffff ;margin-right: 10px ;"></i> <b>Open </b>&nbsp; Mon - Sat : 24 Hours -->
-                            <i class="icon-phone" style="font-size: 19px ;color: #ffffff ;margin-left: 25px ;margin-right: 10px ;"></i><b>Call Now!</b> &nbsp; +1-408-878-3187
+                            <i class="icon-phone" style="font-size: 19px ;color: #ffffff ;margin-left: 25px ;margin-right: 10px ;"></i><b>Call Now!</b> &nbsp; +1 307 462 0555
                             <i class="icon-envelope" style="font-size: 19px ;color: #ffffff ;margin-left: 25px ;margin-right: 10px ;"></i><a href="#"><span class="__cf_email__" > support@mrrhealthtech.us </span></a> </div>
                         <div class="mediz-top-bar-right mediz-item-pdlr">
                             <div class="mediz-top-bar-right-social">
@@ -398,7 +398,7 @@ body
                                         <br />
                                         <span class="gdlr-core-space-shortcode" style="margin-top: 0px ;"></span>
                                         <br />
-                                        <i class="icon-phone" style="font-size: 19px ;color: #0c9399 ;margin-right: 10px ;"></i><span style="color: #fff;">+1-408-878-3187</span>
+                                        <i class="icon-phone" style="font-size: 19px ;color: #0c9399 ;margin-right: 10px ;"></i><span style="color: #fff;">+1 307 462 0555</span>
                                         <br />
                                         <span class="gdlr-core-space-shortcode" style="margin-top: -15px ;"></span>
                                         <br />

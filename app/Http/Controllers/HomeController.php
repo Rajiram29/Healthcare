@@ -3,9 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\time;
-use App\user;
-use App\digit;
+use App\FileUpload;
+use App\Files;
+use App\user; 
+use App\MassTort;
 use Validator;
 use Illuminate\Support\Facades\Input;
 use Response;
@@ -46,6 +47,39 @@ class HomeController extends Controller
       
         return view('login');
     }
+
+
+   public function client_dashboard()
+    {
+
+      
+        return view('dashboard');
+    }
+
+     public function clientlogin(Request $request)
+    {
+
+       
+        $userdata = array(
+        'email'     => Input::get('email'),
+        'password'  => Input::get('password'),
+        'role'  => "Client"
+    );
+
+    // attempt to do the login
+    if (Auth::attempt($userdata)) {
+
+       return redirect()->route('client_dashboard'); 
+
+    } else {        
+   return redirect()->back()->with('error', 'Invalid email or password');
+          
+
+    }
+    
+ 
+    }
+
 
     public function uploadpage(Request $request)
     { 

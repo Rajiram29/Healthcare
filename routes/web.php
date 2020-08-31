@@ -41,36 +41,40 @@ Route::get('/medication', 'HomeController@medication');
 
 
 
- 
+ Route::post('/fileupload', 'HomeController@fileupload');
+Route::post('/clientlogin', 'HomeController@clientlogin');
+Route::get('/login', 'HomeController@login');
+
+Route::group(['middleware' => ['auth:web']], function () {
+	
+
+Route::get('/myaccount', 'HomeController@client_dashboard')->name('client_dashboard');
+
+
+});
+
+
  
 // Admin Route
 Route::get('/adminlogin', 'Auth\LoginController@admin')->name('adminlogin');
 Route::get('/admin',  'Auth\LoginController@admin');
 Route::post('/admin',  'Auth\LoginController@adminlogin');
 
-
-
-
-Route::group(['middleware' => 'auth'], function () {
+Route::group(['middleware' => ['auth:web','admin']], function () {
 	
 // Dashboard Route
 Route::get('/dashboard', 'HomeController@dashboard')->name('dashboard');
 
-// Time Route
-Route::get('/time', 'TimeController@index');
-Route::POST('addtime','TimeController@addtime');
-Route::GET('addtime','TimeController@addtime');
-Route::POST('updatetime','TimeController@edittime');
-Route::POST('deletetime','TimeController@deletetime');
-Route::GET('viewtime/{id}','TimeController@viewtime');
+ Route::get('/user', 'UserController@index');
+Route::post('/adduser','UserController@create');
+Route::get('/viewuser/{id}','UserController@view');
+Route::POST('updateuser','UserController@edit');
+Route::post('/deleteuser','UserController@delete'); 
+Route::post('/status','UserController@status');
 
-// Digit Route
-Route::get('/digits', 'DigitController@index');
-Route::POST('adddigit','DigitController@adddigit');
-Route::GET('adddigit','DigitController@adddigit');
-Route::POST('updatedigit','DigitController@editdigit');
-Route::POST('deletedigit','DigitController@deletedigit');
-Route::GET('viewdigit/{id}','DigitController@viewdigit');
+ Route::get('/files', 'FileuploadsController@index'); 
+ Route::post('/files', 'FileuploadsController@index'); 
+Route::get('/viewfileinfo/{id}','FileuploadsController@view'); 
 
 // password
 Route::post('/pass', 'HomeController@pass');
@@ -79,3 +83,4 @@ Route::post('/addpass', 'HomeController@changepass');
 
 
 });
+

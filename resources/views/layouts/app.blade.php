@@ -174,6 +174,24 @@ body
 
                                            <li class="menu-item menu-item-home current-menu-item page_item page-item-7684 current_page_item"><a href="{{url('/')}}/contact-us" aria-current="page">Contact Us</a></li>  
                                            <li class="menu-item menu-item-home current-menu-item page_item page-item-7684 current_page_item"><a href="{{url('/')}}/secure-file-upload" aria-current="page">Secure File Upload</a></li> 
+
+
+
+                                 @if(auth()->user() && auth()->user()->role=="Client")
+                                  <li class="menu-item menu-item-has-children  mediz-normal-menu  @if(Request::segment(1)=='myaccount') current-menu-item @endif"><a href="" class="sf-with-ul-pre">My Account</a>
+                                    <ul class="sub-menu"> 
+                                        <li class="menu-item" data-size="60"><a href="{{url('myaccount')}}" class="@if(Request::segment(1)=='myaccount')active @endif">Dashboard</a></li>
+                                         <li class="menu-item" data-size="60"><a  href="{{ route('logout') }}" onclick="event.preventDefault();  document.getElementById('logout-form').submit();">
+                  Logout</a>
+                  <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                     @csrf
+                  </form></li>
+                                    </ul>
+                                </li>
+                                @else
+                                  <li class="menu-item menu-item-home page_item page-item-7684 current_page_item mediz-normal-menu @if(Request::segment(1)=='login')current-menu-item @endif"><a href="{{url('login')}}">Login</a></li>
+                                  @endif
+                                  
                                         
                                         
                                     </ul>
@@ -288,8 +306,25 @@ body
 
 
                                   <li class="menu-item menu-item-home page_item page-item-7684 current_page_item mediz-normal-menu @if(Request::segment(1)=='contact-us')current-menu-item @endif"><a href="{{url('contact-us')}}">Contact Us</a></li>
+
+
                                 
-                                
+                                 @if(auth()->user() && auth()->user()->role=="Client")
+                                  <li class="menu-item menu-item-has-children  mediz-normal-menu  @if(Request::segment(1)=='myaccount') current-menu-item @endif"><a href="" class="sf-with-ul-pre">My Account</a>
+                                    <ul class="sub-menu"> 
+                                        <li class="menu-item" data-size="60"><a href="{{url('myaccount')}}" class="@if(Request::segment(1)=='myaccount')active @endif">Dashboard</a></li>
+                                         <li class="menu-item" data-size="60"><a  href="{{ route('logout') }}" onclick="event.preventDefault();  document.getElementById('logout-form').submit();">
+                  Logout</a>
+                  <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                     @csrf
+                  </form></li>
+                                    </ul>
+                                </li>
+                                @else
+                                  <li class="menu-item menu-item-home page_item page-item-7684 current_page_item mediz-normal-menu @if(Request::segment(1)=='login')current-menu-item @endif"><a href="{{url('login')}}">Login</a></li>
+                                  @endif
+
+
                             </ul>
                             <div class="mediz-navigation-slide-bar  mediz-navigation-slide-bar-style-2" data-size-offset="0" id="mediz-navigation-slide-bar"></div>
                         </div>

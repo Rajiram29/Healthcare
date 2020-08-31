@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -29,7 +30,7 @@
          <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{url('dashboard')}}">
-               MedicalRecordsReform
+               LOGO
             </a>
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
@@ -44,20 +45,22 @@
             </li>
           
              
-     <li class="nav-item @if(Request::segment(1) =='time')
+     <li class="nav-item @if(Request::segment(1) =='user')
             {{'active'}}
             @endif">
-      <a class="nav-link" href="{{url('time')}}">
+      <a class="nav-link" href="{{url('user')}}">
       <i class="fas fa-clock"></i>
-      <span>Time</span></a>
+      <span>Users</span></a>
       </li>
 
-      <li class="nav-item @if(Request::segment(1) =='digits')
+      
+
+       <li class="nav-item @if(Request::segment(1) =='files')
             {{'active'}}
             @endif">
-      <a class="nav-link" href="{{url('digits')}}">
+      <a class="nav-link" href="{{url('files')}}">
       <i class="fas fa-credit-card"></i>
-      <span>Digits</span></a>
+      <span>File Uploads</span></a>
       </li>
       
          </ul>
@@ -215,6 +218,7 @@
       </div>
       
   <script src="public/admin_assets/js/jquery.min.js"></script>
+  <script src="public/admin_assets/js/jquery.validate.js"></script>
   <script src="public/admin_assets/js/bootstrap.bundle.min.js"></script>
   <script src="public/admin_assets/js/jquery.easing.min.js"></script>
   <script src="public/admin_assets/js/admin.min.js"></script>
@@ -222,7 +226,53 @@
   <script src="public/admin_assets/js/dataTables.bootstrap4.min.js"></script>
   <script type="text/javascript" src="public/sweetalert/sweetalert2.min.js"></script>
   <script type="text/javascript" src="public/js/jquery.toastmessage.js"></script>
-   
+    <script type="text/javascript">
+          $(document).ready(function() {
+            $('#dataTable').DataTable();
+          });
+          
+           $.ajaxSetup({
+                  headers: {
+                      'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                  }
+              });
+            function swalmsg(type,title){
+                      Swal.fire({
+                        type: type,
+                        title: title,
+                        showConfirmButton: false,
+                        timer: 1500
+                      })
+                }
+          
+             function swalcheck(title){
+                      Swal.fire({
+                      title: title,
+                      
+                      imageUrl: 'public/images/Green-Tick-Mark-84435.gif',
+                      imageWidth: 100,
+                      imageHeight: 100,
+                      
+                    })
+                }
+                 function swaluncheck(title){
+                      Swal.fire({
+                      title: title,
+                     
+                      imageUrl: 'public/images/DiligentWastefulGavial-small.gif',
+                      imageWidth: 100,
+                      imageHeight: 100,
+                      
+                    })
+                }
+          
+          
+          jQuery(".show-modal").click(function(event) {
+              $('.modal-title-view').removeClass('hidden');
+                });
+            
+        </script>
   @yield('script')
    </body>
 </html>
+

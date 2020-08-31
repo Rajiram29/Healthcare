@@ -603,7 +603,7 @@ Our Chronology would benefit you in the following ways:
       <h2 class="head-basic"> Feel free to talk to us</h2>
   
       <p style='text-align: justify;'>We provide years of expertise and services to support the legal industry. We have highly trained medical experts who can summarize and evaluate medical records as well as provide cost-effective medical record analysis. Our services are endless.</p>
-      <p><b>Email</b>&nbsp;&nbsp;  Support@mrrhealthtech.com</p>
+      <p><b>Email</b>&nbsp;&nbsp;  support@mrrhealthtech.us</p>
       <p><b>Call Now! </b>&nbsp;&nbsp;  +1-408-878-3187</p>
   
     </div>
@@ -677,8 +677,7 @@ Our Chronology would benefit you in the following ways:
             <li class="gdlr-core-item-mglr">
                 <div class="gdlr-core-testimonial clearfix">
                     <div class="gdlr-core-testimonial-content-wrap">
-                        <!-- <div class="gdlr-core-testimonial-quote gdlr-core-quote-font gdlr-core-skin-icon" style="font-size: 160px ;font-weight: 800 ;margin-top: 70px ;margin-bottom: 0px ;color: #0e969e ;">&#8220;</div> -->
-                        <!-- <div class="gdlr-core-testimonial-quote gdlr-core-quote-font gdlr-core-skin-icon" style="font-size: 160px ;font-weight: 800 ;margin-top: 70px ;margin-bottom: 0px ;color: #17449e ;">&#8220;</div> -->
+                    
                         <div class="gdlr-core-testimonial-content gdlr-core-info-font gdlr-core-skin-content" style="font-size:17px ;font-style: italic ;font-weight: 400 ;letter-spacing: 0px ;color: #7a7a7a ;padding-bottom: 20px ;">
                             <p>I am satisfied with the analysis.</p>
                         </div>
